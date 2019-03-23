@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28606.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Contacts2Go", "Contacts2Go.fsproj", "{EC35021D-0B0A-4F21-A9AA-DBA41669E3E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC35021D-0B0A-4F21-A9AA-DBA41669E3E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC35021D-0B0A-4F21-A9AA-DBA41669E3E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC35021D-0B0A-4F21-A9AA-DBA41669E3E8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EC35021D-0B0A-4F21-A9AA-DBA41669E3E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC35021D-0B0A-4F21-A9AA-DBA41669E3E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC35021D-0B0A-4F21-A9AA-DBA41669E3E8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45504F1A-202E-4525-AA0A-41AA04A6D059}
+	EndGlobalSection
+EndGlobal
