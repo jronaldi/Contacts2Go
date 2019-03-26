@@ -32,12 +32,19 @@ type MainActivity () =
         trace.set_MovementMethod(new ScrollingMovementMethod());
 
         button.Click.Add (fun args -> 
-            button.Text <- sprintf "%d clicks!" count
-            count <- count + 1
+            //button.Text <- sprintf "%d clicks!" count
+            //count <- count + 1
+            
+            let dumpPhones listOfPhones =
+                let allPhones = [for phone in listOfPhones -> phone + "; "] |> String.concat ""
+                allPhones
 
             let traceMsg = ""
             // let contactDisplayList = Array.collect (fun (id,name) -> [|sprintf "%s = %s\n" id name|]) (GetContactCursor this)
-            let contactDisplayList = Array.fold (fun msg (id,name) -> msg + (sprintf "%s = %s\n" id name)) "" (GetContactCursor this)
+            let contactDisplayList = 
+                Array.fold (
+                    fun msg (id,name,lastUpdate,hasPhone,phones) -> 
+                        msg + (sprintf "%s = %s %s %s -- %s\n" id name lastUpdate hasPhone (dumpPhones phones))) "" (GetContactCursor this)
             trace.SetText(contactDisplayList, TextView.BufferType.Normal)
             ()
         )

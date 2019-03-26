@@ -18,8 +18,8 @@
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
     <Name>Contacts2Go</Name>
-    <SelectedDevice>my_device</SelectedDevice>
-    <DefaultDevice>my_device</DefaultDevice>
+    <SelectedDevice>pixeltest</SelectedDevice>
+    <DefaultDevice>pixeltest</DefaultDevice>
     <AndroidDesignerPreferredDevice>pixel_2</AndroidDesignerPreferredDevice>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
